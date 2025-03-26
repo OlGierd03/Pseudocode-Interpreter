@@ -9,7 +9,7 @@ from interpreter import Interpreter
 
 
 if __name__ == "__main__":
-    filename = sys.argv[1] if len(sys.argv) > 1 else "samples/example.txt"
+    filename = sys.argv[1] if len(sys.argv) > 1 else "samples/lab5/fibonacci.m"
 
     try:
         file = open(filename, "r")
@@ -31,4 +31,3 @@ if __name__ == "__main__":
 
         if not typeChecker.errors:
             ast.accept(Interpreter(), toplevel=True)
-
