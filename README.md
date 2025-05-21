@@ -1,15 +1,15 @@
-# **Pseudocode-Compiler**
+# **Pseudocode-Interpreter**
 
-## Authors 
+## Authors
 
 Olgierd Smyka, Hubert Kasprzycki
 
 ## Overview
-This project is a compiler for a pseudocode language supporting basic arithmetic and matrix operations, built using the **SLY** (Simple Lex-Yacc) library. It includes a scanner, parser, AST (Abstract Syntax Tree), basic semantic analysis and an interpreter for executing pseudocode in **Python**. The focus was on learning compiler construction and implementing fundamental optimizations for mathematical expressions.
+This project is an interpreter for a pseudocode language supporting basic arithmetic and matrix operations, built using the **SLY** (Simple Lex-Yacc) library. It includes a scanner, parser, AST (Abstract Syntax Tree), basic semantic analysis and an interpreter for executing pseudocode in **Python**. The focus was on learning interpreter construction and implementing fundamental optimizations for mathematical expressions.
 
 ## Usage
 
-To run the compiler and execute a pseudocode program, provide a file containing the pseudocode using the following command:
+To run the interpreter and execute a pseudocode program, provide a file containing the pseudocode using the following command:
 ```bash
 python main.py <filename>
 ```
